@@ -4,7 +4,7 @@
 
 <!-- add signature.svg to ./assets/ -->
 
-<h1 align="center">nasa-coding-standards</h1>
+<h1 align="center">nasa-coding-standards-skill</h1>
 
 <p align="center">a local skill and /nasa command for enforcing nasa's power of 10 on real code.</p>
 
@@ -52,8 +52,8 @@ small functions. bounded loops. fewer excuses.
 ## install
 
 ```bash
-git clone https://github.com/zaydiscold/nasa-coding-standards.git  # clone the repo
-cd nasa-coding-standards                                           # move into it
+git clone https://github.com/zaydiscold/nasa-coding-standards-skill.git  # clone the repo
+cd nasa-coding-standards-skill                                         # move into it
 mkdir -p ~/.claude/skills ~/.claude/commands                       # create local dirs
 cp -R nasa-coding-standards ~/.claude/skills/                      # install the skill
 cp .claude/commands/nasa.md ~/.claude/commands/                    # install the /nasa command
@@ -62,9 +62,9 @@ cp .claude/commands/nasa.md ~/.claude/commands/                    # install the
 or
 
 ```bash
-curl -L https://github.com/zaydiscold/nasa-coding-standards/archive/refs/heads/master.zip -o nasa-coding-standards.zip  # download zip
-unzip nasa-coding-standards.zip                                                                                           # unpack it
-cd nasa-coding-standards-master                                                                                           # move into it
+curl -L https://github.com/zaydiscold/nasa-coding-standards-skill/archive/refs/heads/master.zip -o nasa-coding-standards-skill.zip  # download zip
+unzip nasa-coding-standards-skill.zip                                                                                                 # unpack it
+cd nasa-coding-standards-skill-master                                                                                                 # move into it
 mkdir -p ~/.claude/skills ~/.claude/commands                                                                             # create local dirs
 cp -R nasa-coding-standards ~/.claude/skills/                                                                            # install the skill
 cp .claude/commands/nasa.md ~/.claude/commands/                                                                          # install the /nasa command
@@ -129,11 +129,11 @@ there's no extra packaging layer. just the files you need.
 <br>
 
 <p align="center">
-  <a href="https://star-history.com/#zaydiscold/nasa-coding-standards&Date">
+  <a href="https://star-history.com/#zaydiscold/nasa-coding-standards-skill&Date">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=zaydiscold/nasa-coding-standards&type=Date&theme=dark" />
-      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=zaydiscold/nasa-coding-standards&type=Date" />
-      <img src="https://api.star-history.com/svg?repos=zaydiscold/nasa-coding-standards&type=Date&theme=dark" width="320" alt="star history chart" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=zaydiscold/nasa-coding-standards-skill&type=Date&theme=dark" />
+      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=zaydiscold/nasa-coding-standards-skill&type=Date" />
+      <img src="https://api.star-history.com/svg?repos=zaydiscold/nasa-coding-standards-skill&type=Date&theme=dark" width="320" alt="star history chart" />
     </picture>
   </a>
 </p>
