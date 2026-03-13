@@ -6,7 +6,7 @@
 
 <h1 align="center">nasa-coding-standards</h1>
 
-<p align="center">a claude code skill and /nasa command for enforcing nasa's power of 10 on real code.</p>
+<p align="center">a local skill and /nasa command for enforcing nasa's power of 10 on real code.</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/markdown-skill-B4A7D6?style=flat-square&labelColor=1a1a2e" alt="markdown" />
@@ -54,7 +54,7 @@ small functions. bounded loops. fewer excuses.
 ```bash
 git clone https://github.com/zaydiscold/nasa-coding-standards.git  # clone the repo
 cd nasa-coding-standards                                           # move into it
-mkdir -p ~/.claude/skills ~/.claude/commands                       # create claude code dirs
+mkdir -p ~/.claude/skills ~/.claude/commands                       # create local dirs
 cp -R nasa-coding-standards ~/.claude/skills/                      # install the skill
 cp .claude/commands/nasa.md ~/.claude/commands/                    # install the /nasa command
 ```
@@ -65,12 +65,12 @@ or
 curl -L https://github.com/zaydiscold/nasa-coding-standards/archive/refs/heads/master.zip -o nasa-coding-standards.zip  # download zip
 unzip nasa-coding-standards.zip                                                                                           # unpack it
 cd nasa-coding-standards-master                                                                                           # move into it
-mkdir -p ~/.claude/skills ~/.claude/commands                                                                             # create claude code dirs
+mkdir -p ~/.claude/skills ~/.claude/commands                                                                             # create local dirs
 cp -R nasa-coding-standards ~/.claude/skills/                                                                            # install the skill
 cp .claude/commands/nasa.md ~/.claude/commands/                                                                          # install the /nasa command
 ```
 
-if claude code is already open, restart it after copying the files.
+if the app is already open, restart it after copying the files.
 
 <br>
 <br>
